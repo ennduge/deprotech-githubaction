@@ -1,4 +1,4 @@
-resource "aws_db_instance" "postgresdb" {
+resource "aws_db_instance" "postgresdb2024" {
   identifier = var.db_identifier
   engine = var.engine_type
   instance_class = var.instance_class

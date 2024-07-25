@@ -1,7 +1,7 @@
 variable "db_identifier" {
     description = "provide a db_ identifier"
     type = string
-    default = "deprotech"
+    default = "deprotech2024"
 }
 
 variable "engine_type" {
@@ -19,7 +19,7 @@ variable "instance_class" {
 variable "db_username" {
     description = "provide db username"
     type = string
-    default = "elvistar"
+    default = "elvistar2024"
 }
 
 variable "db_password" {
